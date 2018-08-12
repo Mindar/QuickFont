@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{23DCA95C-CDCE-4529-948E-7D59D6110A8B}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,30 +18,56 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickFont.ES20", "QuickFont
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		QuickFont.Shared\QuickFont.Shared.projitems*{f182325f-d682-4639-a19f-ae047da80518}*SharedItemsImports = 4
-		QuickFont.Shared\QuickFont.Shared.projitems*{bbece6fc-ef63-40f8-a734-a500d1dfc1af}*SharedItemsImports = 4
 		QuickFont.Shared\QuickFont.Shared.projitems*{adf0dfb4-fbbd-4336-bb19-62e5a904c38d}*SharedItemsImports = 13
+		QuickFont.Shared\QuickFont.Shared.projitems*{bbece6fc-ef63-40f8-a734-a500d1dfc1af}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Debug|x86.Build.0 = Debug|Any CPU
 		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Release|x64.Build.0 = Release|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBECE6FC-EF63-40F8-A734-A500D1DFC1AF}.Release|x86.Build.0 = Release|Any CPU
 		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Debug|x64.ActiveCfg = Debug|x64
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Debug|x64.Build.0 = Debug|x64
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Debug|x86.ActiveCfg = Debug|x86
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Debug|x86.Build.0 = Debug|x86
 		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Release|x64.ActiveCfg = Release|x64
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Release|x64.Build.0 = Release|x64
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Release|x86.ActiveCfg = Release|x86
+		{84E44D1B-460F-46AF-A0AA-31735088DE3F}.Release|x86.Build.0 = Release|x86
 		{F182325F-D682-4639-A19F-AE047DA80518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F182325F-D682-4639-A19F-AE047DA80518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F182325F-D682-4639-A19F-AE047DA80518}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F182325F-D682-4639-A19F-AE047DA80518}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{F182325F-D682-4639-A19F-AE047DA80518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F182325F-D682-4639-A19F-AE047DA80518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F182325F-D682-4639-A19F-AE047DA80518}.Release|x64.ActiveCfg = Release|Any CPU
+		{F182325F-D682-4639-A19F-AE047DA80518}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01D13A2D-BB75-4660-8885-15A5C667E2D9}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Example\Example.csproj
