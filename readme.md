@@ -1,9 +1,9 @@
-QuickFont [![Join the chat at https://gitter.im/opcon/QuickFont](https://badges.gitter.im/opcon/QuickFont.svg)](https://gitter.im/opcon/QuickFont?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/opcon/QuickFont.svg?branch=master)](https://travis-ci.org/opcon/QuickFont) [![Build status](https://ci.appveyor.com/api/projects/status/2t22o5k5eu989836/branch/master?svg=true)](https://ci.appveyor.com/project/opcon/quickfont/branch/master) [![NuGet](https://img.shields.io/nuget/v/QuickFont.Desktop.svg?maxAge=2592000)](https://www.nuget.org/packages/QuickFont.Desktop/)
+QuickFont (for OpenTK 3.0)
 =========
 
 A modern OpenGL text rendering library for OpenTK.
 
-Forked from [swax/QuickFont](https://github.com/swax/QuickFont) library.
+Forked from [opcon/QuickFont](https://github.com/opcon/QuickFont) library.
 Original Library [QFont](http://www.opentk.com/project/QuickFont)
 
 You can install this library via [nuget](https://www.nuget.org/packages/QuickFont.Desktop/).
@@ -27,15 +27,20 @@ This will select an OpenGL version >= 3.2 (usually 4.1).
 
 # Changelog
 
-## Latest Release - Version 4.4
+## Version 4.5
+* Updated to OpenTK 3.0
+* No more support for OpenGL ES
+* Not available on nuget (version on nuget is 4.4)
+
+## Previous Releases:
+
+#### Version 4.4
 * Updated to OpenTK 2.0 and SharpFont 4.0.1
 * Added fallback to builtin kerning if font file does not have any
 * Switch to using paket for dependency management rather than nuget
 * Added OSX and Linux continuous integration through travis-ci
 * Added a custom view-model-matrix to QFontDrawingPrimitive which allows for some fun effects - see Example
 * Improved inbuilt documentation
-
-## Previous Releases:
 
 #### Version 4.3
 * Kerning information is now loaded from FreeType if `FreeTypeFont` is used
