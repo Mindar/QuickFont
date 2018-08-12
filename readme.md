@@ -6,8 +6,6 @@ A modern OpenGL text rendering library for OpenTK.
 Forked from [opcon/QuickFont](https://github.com/opcon/QuickFont) library.
 Original Library [QFont](http://www.opentk.com/project/QuickFont)
 
-You can install this library via [nuget](https://www.nuget.org/packages/QuickFont.Desktop/).
-
 ## Supported Platforms
 
 QuickFont has been tested and runs on Windows, Linux and OSX.
